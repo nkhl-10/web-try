@@ -1,0 +1,138 @@
+/* csss selector
+
+1.simle selector = ex . body,h1 etc.
+2.combinator selector
+3. pseudo class selector  =  ex class="h1h"  /call/ .h1h{}
+4.pseudo id selector   = ex id="h1h"  /call/ #h1h{}
+5.attribut seclector = ex  tag-name[attribue-name]{} // a[target="_blank"]{}
+
+
+
+*/
+
+
+
+
+
+body{
+    background-color: rgb(230, 230, 255);
+    /* background-image: url(1.jpg); */
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: border-box;
+
+
+
+    animation-name: bgchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+    
+
+    
+}
+
+@keyframes bgchange{
+    0%{ background-image: url(1.jng);}
+    50%{background-image: url(2.jpg);}
+   100%{background-image: url(3.jpg);}
+}
+
+#img{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    float: right;
+    bottom: 300px;
+}
+
+@keyframes move{
+    0%{ margin-right: 0%;}
+    20%{ margin-right: 20%;}
+    40%{ margin-left: 40%;}
+    60%{ margin-right: 60%;}
+    80%{ margin-right: 80px;}
+    100%{ margin-right: 100%;}
+}
+
+
+
+
+
+
+/* 
+tbody{
+    color: aquamarine;
+  
+    background-color: blueviolet;
+}
+thead{
+    color: beige;
+    background-color: black;
+}
+
+tfoot{
+    color: brown;
+    background-color: blue;
+}
+
+table{
+    padding: 55px;
+}
+
+
+.div1{
+    background-color: blue;
+
+}
+
+
+
+h1{
+    color: brown;
+    font-size: xx-large;
+    font-weight: 85px;
+    font-family: cursive;
+    opacity: 1.5;
+    font-style: italic;
+    outline: rgb(0, 132, 255) solid 14px;
+   
+
+} */
+
+
+
+
+/
+#img{
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+    border: 5px solid #ffff;
+    border-width: 05px;
+    border-top: #0004ff;
+    
+    border-style: dotted;
+    border-spacing: 5px;
+
+    border-radius: 100px;
+
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    
+    margin : 150px;
+
+
+    padding: 10px;
+}
+
+#img:hover{
+    height: 600px;
+    width: 1000px;
+    opacity: 0.9;
+    float: right;
+    content: url(3.jpg);
+} 

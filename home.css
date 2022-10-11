@@ -1,0 +1,131 @@
+body{
+    background-color: #ffffff;
+    font-family :Mulish;
+    font-size: medium;
+
+    
+}
+
+#header {
+    width: auto;
+    height: 70px;
+    background-color: #ffffff;
+    border: #000 solid 1px;
+    
+    margin: auto;
+    padding: auto;
+}
+
+#logo{
+position: fixed;
+width: 226px;
+height: 50px;
+left: 50px;
+top: 15px;
+
+margin: auto;
+padding: auto;
+}
+
+#search{
+    position: fixed;
+    width: 350px;
+     top: 15px;
+     background-color: #ffffff;
+      
+      display: block;
+       position: fixed; 
+       right: 15%;
+       margin: auto;
+       padding: auto;
+}
+
+#addcart{
+    position:fixed;
+    top: 15px;
+    background-color:#ffffff;
+    display: block;
+    right: 9%;
+    
+    margin: auto;
+    padding: auto;
+}
+
+#profile{
+    position:fixed;
+    top: 15px;
+    background-color:#ffffff;
+    display: block;
+    right: 3%;
+    
+    margin: auto;
+    padding: auto;
+}
+
+
+
+#layout1{
+    height:100%;
+    width: 25%;
+    border: #000 solid 1px;
+    left: 0%;
+    float: left;
+    background-color: #ffffff;
+
+}
+
+
+#layout2{
+    height:100%;
+    width: 75%;
+    border: #000 solid 1px;
+    right: 0%;
+    float: right;
+    background-color: #f0f0f0;
+
+}
+
+.homebtn{
+    height: inherit;
+    width: 25%;
+    margin: auto;
+    padding: auto;
+    display: block;
+}
+
+ 
+
+.container{
+    width: auto;
+    height: 100%;
+    background: #f1f1f1;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    background-color: #ffffff  ;
+  }
+
+.btnsty{
+    width:75px;
+    background-color: #f0f0f0;
+
+}
+
+.btnbtn{
+    border: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 15px;
+}
+
+h1{
+    padding: 1%;
+    margin: auto;
+}
